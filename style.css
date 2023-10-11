@@ -1,0 +1,25 @@
+table, th, td {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+  }
+
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+table {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h5 {
+    padding: 30px;
+}
