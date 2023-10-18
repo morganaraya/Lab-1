@@ -19,3 +19,50 @@ table {
     margin-left: 100px;
     margin-right: 100px;
 }
+
+a.item1:hover {
+    color: red;
+}
+
+a.item2:visited {
+    color: gray;
+}
+
+a.item3:active {
+    color: orange;
+}
+
+p.randomparagraph {
+    color: black;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+img.img1 {
+    width:5%;
+    height:2%; 
+    border-width: 5px; 
+    border-color: red; 
+    border-style: dashed; 
+    padding: 30px;
+}
+
+img.img2 {
+    width:150pt;
+    height:150pt; 
+    border-width: 5px; 
+    border-color: red; 
+    border-style: dashed;
+    padding: 30px;
+}
+
+img.img3 {
+    width:2in;height:2in; 
+    border-width: 5px; 
+    border-color: red; 
+    border-style: dashed; 
+    padding: 30px;
+}
