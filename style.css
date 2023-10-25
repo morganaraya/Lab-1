@@ -1,15 +1,60 @@
-table, th, td {
+body {
+    background-color: lightcyan;
+  }
+  
+  h1 {
+    color: rgb(190, 255, 230);
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    background-color: darkgrey;
+  }
+
+  h3 {
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    font-size: 35px;
+  }
+  
+  h4 {
+    color: black;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+  }
+
+  p {
+    color: black;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+  }
+
+table.table1 {
+    width:50%;
+  }
+
+tr.tr1 {
+    background-color: lightgray;
+    padding: 10px;
     border-width: 2px;
     border-color: black;
     border-style: solid;
-  }
+}
+
+tr.tr2 {
+    padding: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
 
 td {
     padding: 10px;
 }
 
 th {
-    background-color: lightgray;
     padding: 10px;
 }
 
