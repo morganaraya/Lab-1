@@ -242,5 +242,46 @@
   <li><a href="#" class="item3">item3</a></li>
 </ul>
 
+<p id="num1 + num2"></p>
+<p id="num1 - num2"></p>
+<p id="num1 x num2"></p>
+<p id="Grade"></p>
+
+<script>
+  let num1 = 10;
+  let num2 = 15;
+  let a = num1 + num2;
+  let b = num1 - num2;
+  let c = num1 * num2;
+  let result = "";
+  let score = 85;
+
+  document.getElementById("num1 + num2").innerHTML = "num1 + num2 = " + a;
+  console.log(num1+num2);
+  document.getElementById("num1 - num2").innerHTML = "num1 - num2 = " + b;
+  console.log(num1+num2);
+  document.getElementById("num1 x num2").innerHTML = "num1 * num2 = " + c;
+  console.log(num1+num2);
+  
+  if (score >= 90) {
+    result = "A"
+    console.log("A");
+  } else if (score >= 80 && score <= 89) {
+    result = "B"
+    console.log("B");
+  } else if (score >= 70 && score <= 79) {
+    result = "C"
+    console.log("C");
+  } else if (score >= 60 && score <= 69) {
+    result = "D"
+    console.log("D");
+  } else if (score < 60) {
+    result = "F"
+    console.log("F");
+  }
+
+  document.getElementById("Grade").innerHTML = "Grade: " + result;
+</script>
+
 </body>
 </html>
