@@ -281,6 +281,22 @@
   }
 
   document.getElementById("Grade").innerHTML = "Grade: " + result;
+</script>;
+
+<button id="changeTextBtn">Change Text</button>
+<p id="displayText">Random Text</p>
+
+<script>
+    var button = document.getElementById("changeTextBtn");
+    var paragraph = document.getElementById("displayText");
+
+    button.addEventListener("click", function() {
+        changeText();
+    });
+
+    function changeText() {
+        paragraph.textContent = "Hello, JavaScript World!";
+    }
 </script>
 
 </body>
