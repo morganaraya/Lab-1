@@ -299,5 +299,31 @@
     }
 </script>
 
+<form id="login">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <br>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const login = document.getElementById('login');
+  login.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+    if (username === '' || password === '') {
+      alert('Please enter both username and password.');
+    } else {
+      setTimeout(function () { alert('Login success'); }, 3000);
+    }
+  });
+});
+</script>
+
 </body>
 </html>
